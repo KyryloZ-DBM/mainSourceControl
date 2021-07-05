@@ -130,7 +130,32 @@
         "ProjectId": "4e803ced-6627-4e39-a440-9f795bbdda08",
         "ProjectName": "testShared0",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "b51ac743-cc81-49d8-8dc3-66bd4ad7d84e",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "8f1e9a29-fbfc-4a62-8d06-2eca1ece44ed",
+                "DatabaseAliasName": "aliastestShared0",
+                "DatabaseConnectionDetails": {
+                  "DBTypeName": "SQL Server",
+                  "Host": "localhost",
+                  "AuthenticationType": 1,
+                  "Username": "sa",
+                  "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                  "DatabaseName": "test0"
+                },
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7646, Culture=neutral, PublicKeyToken=null",
+                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/secondRepo.git",
+                  "BranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -145,7 +170,17 @@
       "UserData": [
         {
           "UserName": "KyryloZ-DBM",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "8f1e9a29-fbfc-4a62-8d06-2eca1ece44ed",
+              "DatabaseAliasName": "aliastestShared0",
+              "DatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "KyryloZ-DBM",
+                "Password": "oJtdZOTQoQHjJKoDqxPhnrUH/r6VS470pcjQPtbUJr8="
+              }
+            }
+          ]
         }
       ]
     }
