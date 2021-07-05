@@ -58,6 +58,30 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "6aaa51ca-21b2-4483-86fc-2e85b1823a58",
+        "ProjectName": "sheredProject",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 50,
+          "NumberOfTagsInBuildOptions": 50,
+          "BuildDeploymentScriptOnPush": false
+        },
+        "ProjectArchitecture": 1,
+        "LocalDirectory": "C:\\temp\\MainSourceControlProjects\\sheredProject"
+      },
+      "UserData": [
+        {
+          "UserName": "KyryloZ-DBM",
+          "DatabasesData": []
+        }
+      ]
     }
   ]
 }
