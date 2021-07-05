@@ -308,25 +308,7 @@
             "EnvironmentId": "c112de3e-edbf-4fd8-bdde-12cbf1d753d5",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
-            "Databases": [
-              {
-                "DatabaseId": "ebc985ae-ff95-4677-bb59-338eac24a914",
-                "DatabaseAliasName": "newalias",
-                "DatabaseConnectionDetails": {
-                  "DBTypeName": "SQL Server",
-                  "Host": "localhost",
-                  "AuthenticationType": 1,
-                  "Username": "sa",
-                  "Password": "do1NBD0OcmAl1jAcpH7iWg==",
-                  "DatabaseName": "Table1"
-                },
-                "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7647, Culture=neutral, PublicKeyToken=null",
-                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/secondRepo.git",
-                  "BranchName": "main"
-                }
-              }
-            ]
+            "Databases": []
           }
         ],
         "SourceControlPathType": 0,
@@ -343,17 +325,7 @@
       "UserData": [
         {
           "UserName": "KyryloZ-DBM",
-          "DatabasesData": [
-            {
-              "DatabaseId": "ebc985ae-ff95-4677-bb59-338eac24a914",
-              "DatabaseAliasName": "newalias",
-              "DatabaseConnectionDetails": null,
-              "RepositoryCredentials": {
-                "UserName": "KyryloZ-DBM",
-                "Password": "oJtdZOTQoQHjJKoDqxPhnrUH/r6VS470pcjQPtbUJr8="
-              }
-            }
-          ]
+          "DatabasesData": []
         }
       ]
     }
