@@ -1,35 +1,3 @@
 {
-  "Projects": [
-    {
-      "GlobalData": {
-        "ProjectId": "c76f3cc7-51eb-4ca0-89c5-c5eb148d8e69",
-        "ProjectName": "newShared4",
-        "DBTypeName": "SQL Server",
-        "Environments": [
-          {
-            "EnvironmentId": "c112de3e-edbf-4fd8-bdde-12cbf1d753d5",
-            "EnvironmentName": "Dev_Env_1",
-            "EnvironmentType": "DEV",
-            "Databases": []
-          }
-        ],
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 1,
-          "NumberOfRevisionsInViewHistory": 50,
-          "NumberOfTagsInBuildOptions": 50,
-          "BuildDeploymentScriptOnPush": false
-        },
-        "ProjectArchitecture": 1,
-        "LocalDirectory": "C:\\temp\\MainSourceControlProjects\\newShared4"
-      },
-      "UserData": [
-        {
-          "UserName": "KyryloZ-DBM",
-          "DatabasesData": []
-        }
-      ]
-    }
-  ]
+  "Projects": []
 }
