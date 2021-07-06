@@ -2,72 +2,6 @@
   "Projects": [
     {
       "GlobalData": {
-        "ProjectId": "9c7956eb-17cb-4bdd-8a38-90e3c20d2736",
-        "ProjectName": "MainSandboxSQL",
-        "DBTypeName": "SQL Server",
-        "Environments": [
-          {
-            "EnvironmentId": "0865f791-2699-43bd-bb3f-2d1c87160040",
-            "EnvironmentName": "Dev_Env_1",
-            "EnvironmentType": "DEV",
-            "Databases": [
-              {
-                "DatabaseId": "9cdddfb0-a54d-4c2b-a0c6-3e0eab7301e7",
-                "DatabaseAliasName": "RSForMain",
-                "DatabaseConnectionDetails": {
-                  "DBTypeName": "SQL Server",
-                  "Host": "DOPX-KIRIL",
-                  "AuthenticationType": 1,
-                  "Username": "sa",
-                  "Password": "1q2w3e4R",
-                  "DatabaseName": "RS"
-                },
-                "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7647, Culture=neutral, PublicKeyToken=null",
-                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/secondRepo.git",
-                  "BranchName": "main"
-                }
-              }
-            ]
-          }
-        ],
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 1,
-          "NumberOfRevisionsInViewHistory": 50,
-          "NumberOfTagsInBuildOptions": 50,
-          "BuildDeploymentScriptOnPush": false
-        },
-        "ProjectArchitecture": 0,
-        "LocalDirectory": "C:\\temp\\MainSourceControlProjects\\MainSandboxSQL"
-      },
-      "UserData": [
-        {
-          "UserName": "KyryloZ-DBM",
-          "DatabasesData": [
-            {
-              "DatabaseId": "9cdddfb0-a54d-4c2b-a0c6-3e0eab7301e7",
-              "DatabaseAliasName": "RSForMain",
-              "DatabaseConnectionDetails": {
-                "DBTypeName": "SQL Server",
-                "Host": "DOPX-KIRIL",
-                "AuthenticationType": 1,
-                "Username": "sa",
-                "Password": "1q2w3e4R",
-                "DatabaseName": "RS"
-              },
-              "RepositoryCredentials": {
-                "UserName": "KyryloZ-DBM",
-                "Password": "oJtdZOTQoQHjJKoDqxPhnrUH/r6VS470pcjQPtbUJr8="
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "GlobalData": {
         "ProjectId": "6aaa51ca-21b2-4483-86fc-2e85b1823a58",
         "ProjectName": "sheredProject",
         "DBTypeName": "SQL Server",
@@ -89,7 +23,7 @@
                   "DatabaseName": "Table1"
                 },
                 "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7647, Culture=neutral, PublicKeyToken=null",
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7648, Culture=neutral, PublicKeyToken=null",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/secondRepo.git",
                   "BranchName": "main"
                 }
@@ -148,7 +82,7 @@
                   "DatabaseName": "test0"
                 },
                 "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7647, Culture=neutral, PublicKeyToken=null",
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7648, Culture=neutral, PublicKeyToken=null",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/secondRepo.git",
                   "BranchName": "main"
                 }
@@ -207,7 +141,7 @@
                   "DatabaseName": "Table1"
                 },
                 "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7647, Culture=neutral, PublicKeyToken=null",
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7648, Culture=neutral, PublicKeyToken=null",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/secondRepo.git",
                   "BranchName": "main"
                 }
