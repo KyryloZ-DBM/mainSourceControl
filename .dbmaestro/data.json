@@ -2,30 +2,6 @@
   "Projects": [
     {
       "GlobalData": {
-        "ProjectId": "237151d6-4835-4053-80c6-22ac6fdb914f",
-        "ProjectName": "NewShared2",
-        "DBTypeName": "SQL Server",
-        "Environments": null,
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 1,
-          "NumberOfRevisionsInViewHistory": 50,
-          "NumberOfTagsInBuildOptions": 50,
-          "BuildDeploymentScriptOnPush": false
-        },
-        "ProjectArchitecture": 0,
-        "LocalDirectory": "C:\\temp\\MainSourceControlProjects\\NewShared2"
-      },
-      "UserData": [
-        {
-          "UserName": "KyryloZ-DBM",
-          "DatabasesData": []
-        }
-      ]
-    },
-    {
-      "GlobalData": {
         "ProjectId": "09414c01-32f4-4d50-b539-aca279681a8b",
         "ProjectName": "NewShared3",
         "DBTypeName": "SQL Server",
