@@ -19,7 +19,7 @@
                   "Host": "localhost",
                   "AuthenticationType": 1,
                   "Username": "sa",
-                  "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                  "Password": "sfZOS72bZiAoccYMIgKOrjo0lwHlyJQIoAVZntMAOzA=",
                   "DatabaseName": "RS"
                 },
                 "RepositoryDetails": {
@@ -53,6 +53,20 @@
               "RepositoryCredentials": {
                 "UserName": "KyryloZ-DBM",
                 "Password": "oJtdZOTQoQHjJKoDqxPhnrUH/r6VS470pcjQPtbUJr8="
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "KyryloZhdanov",
+          "DatabasesData": [
+            {
+              "DatabaseId": "9700aec2-26c4-40f5-9e6e-ceac3f50e1e5",
+              "DatabaseAliasName": "aliasSharedProject",
+              "DatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "KyryloZhdanov",
+                "Password": "XEg+b/SKVfZ9O8OLmiJywXkRSjyQMPdQ0VoDpuQ1FoY="
               }
             }
           ]
