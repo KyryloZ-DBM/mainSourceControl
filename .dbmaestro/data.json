@@ -1,3 +1,28 @@
 {
-  "Projects": []
+  "Projects": [
+    {
+      "GlobalData": {
+        "ProjectId": "f938945f-e8be-432a-bb7e-a6c3ea5b8cc0",
+        "ProjectName": "sandbox",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 50,
+          "NumberOfTagsInBuildOptions": 50,
+          "BuildDeploymentScriptOnPush": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\temp\\MainSourceControlProjects\\sandbox"
+      },
+      "UserData": [
+        {
+          "UserName": "KyryloZhdanov",
+          "DatabasesData": []
+        }
+      ]
+    }
+  ]
 }
