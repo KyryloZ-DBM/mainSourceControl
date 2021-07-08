@@ -5,7 +5,25 @@
         "ProjectId": "f938945f-e8be-432a-bb7e-a6c3ea5b8cc0",
         "ProjectName": "sandbox",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "2aed27c5-343a-4857-aaa9-78b93e0f3ea7",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "c06faab4-10e8-493f-be7b-86f0db7fc3b5",
+                "DatabaseAliasName": "aliasname",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7654, Culture=neutral, PublicKeyToken=null",
+                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/secondRepo.git",
+                  "BranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -20,7 +38,24 @@
       "UserData": [
         {
           "UserName": "KyryloZhdanov",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "c06faab4-10e8-493f-be7b-86f0db7fc3b5",
+              "DatabaseAliasName": "aliasname",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "DOPX-KIRIL",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "DatabaseName": "RS"
+              },
+              "RepositoryCredentials": {
+                "UserName": "KyryloZhdanov",
+                "Password": "XEg+b/SKVfZ9O8OLmiJywXkRSjyQMPdQ0VoDpuQ1FoY="
+              }
+            }
+          ]
         }
       ]
     }
