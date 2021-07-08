@@ -16,7 +16,7 @@
                 "DatabaseAliasName": "aliasname",
                 "DatabaseConnectionDetails": null,
                 "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7654, Culture=neutral, PublicKeyToken=null",
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7660, Culture=neutral, PublicKeyToken=null",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/secondRepo.git",
                   "BranchName": "main"
                 }
@@ -53,6 +53,27 @@
               "RepositoryCredentials": {
                 "UserName": "KyryloZhdanov",
                 "Password": "XEg+b/SKVfZ9O8OLmiJywXkRSjyQMPdQ0VoDpuQ1FoY="
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "KyryloZ-DBM",
+          "DatabasesData": [
+            {
+              "DatabaseId": "c06faab4-10e8-493f-be7b-86f0db7fc3b5",
+              "DatabaseAliasName": "aliasname",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "localhost",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "DatabaseName": "DEV"
+              },
+              "RepositoryCredentials": {
+                "UserName": "KyryloZ-DBM",
+                "Password": "oJtdZOTQoQHjJKoDqxPhnrUH/r6VS470pcjQPtbUJr8="
               }
             }
           ]
