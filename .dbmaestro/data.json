@@ -14,9 +14,16 @@
               {
                 "DatabaseId": "c06faab4-10e8-493f-be7b-86f0db7fc3b5",
                 "DatabaseAliasName": "aliasname",
-                "DatabaseConnectionDetails": null,
+                "DatabaseConnectionDetails": {
+                  "DBTypeName": "SQL Server",
+                  "Host": "localhost",
+                  "AuthenticationType": 1,
+                  "Username": "sa",
+                  "Password": "1q2w3e4R",
+                  "DatabaseName": "DEV"
+                },
                 "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7660, Culture=neutral, PublicKeyToken=null",
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7666, Culture=neutral, PublicKeyToken=null",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/secondRepo.git",
                   "BranchName": "main"
                 }
@@ -68,7 +75,7 @@
                 "Host": "localhost",
                 "AuthenticationType": 1,
                 "Username": "sa",
-                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "Password": "1q2w3e4R",
                 "DatabaseName": "DEV"
               },
               "RepositoryCredentials": {
@@ -94,9 +101,16 @@
               {
                 "DatabaseId": "c824df09-3fa8-4ea9-957b-7fd98809b4fa",
                 "DatabaseAliasName": "sandboxProjectAlias",
-                "DatabaseConnectionDetails": null,
+                "DatabaseConnectionDetails": {
+                  "DBTypeName": "SQL Server",
+                  "Host": "localhost",
+                  "AuthenticationType": 1,
+                  "Username": "sa",
+                  "Password": "1q2w3e4R",
+                  "DatabaseName": "RS"
+                },
                 "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7660, Culture=neutral, PublicKeyToken=null",
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7666, Culture=neutral, PublicKeyToken=null",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/secondRepo.git",
                   "BranchName": "main"
                 }
@@ -127,7 +141,7 @@
                 "Host": "localhost",
                 "AuthenticationType": 1,
                 "Username": "sa",
-                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "Password": "1q2w3e4R",
                 "DatabaseName": "RS"
               },
               "RepositoryCredentials": {
@@ -138,6 +152,31 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "d8637baf-2b08-4e6b-b8ac-bc3d50410493",
+        "ProjectName": "empyDbProject",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 50,
+          "NumberOfTagsInBuildOptions": 50,
+          "BuildDeploymentScriptOnPush": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\temp\\MainSourceControlProjects"
+      },
+      "UserData": [
+        {
+          "UserName": "KyryloZ-DBM",
+          "DatabasesData": []
+        }
+      ]
     }
-  ]
+  ],
+  "GlobalConfigurations": null
 }
