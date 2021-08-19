@@ -240,30 +240,6 @@
           "DatabasesData": []
         }
       ]
-    },
-    {
-      "GlobalData": {
-        "ProjectId": "b639e938-826f-49f4-9e67-2d4022c5b450",
-        "ProjectName": "test123",
-        "DBTypeName": "SQL Server",
-        "Environments": null,
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 1,
-          "NumberOfRevisionsInViewHistory": 50,
-          "NumberOfTagsInBuildOptions": 50,
-          "BuildDeploymentScriptOnPush": false
-        },
-        "ProjectArchitecture": 0,
-        "LocalDirectory": "Documents/test123"
-      },
-      "UserData": [
-        {
-          "UserName": "KyryloZ-DBM",
-          "DatabasesData": []
-        }
-      ]
     }
   ],
   "GlobalConfigurations": null
