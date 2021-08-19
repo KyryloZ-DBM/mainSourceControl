@@ -255,7 +255,14 @@
               {
                 "DatabaseId": "df907d6b-e3a8-4641-8f34-4369385be379",
                 "DatabaseAliasName": "testAlias1",
-                "DatabaseConnectionDetails": null,
+                "DatabaseConnectionDetails": {
+                  "DBTypeName": "SQL Server",
+                  "Host": "localhost",
+                  "AuthenticationType": 1,
+                  "Username": "sa",
+                  "Password": "1q2w3e4R",
+                  "DatabaseName": "test0"
+                },
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7666, Culture=neutral, PublicKeyToken=null",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/secondRepo.git",
@@ -288,7 +295,7 @@
                 "Host": "localhost",
                 "AuthenticationType": 1,
                 "Username": "sa",
-                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "Password": "1q2w3e4R",
                 "DatabaseName": "test0"
               },
               "RepositoryCredentials": {
@@ -297,6 +304,30 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "09f3aa5b-df7e-4465-af5f-2e85958fb307",
+        "ProjectName": "sharedProject1",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 50,
+          "NumberOfTagsInBuildOptions": 50,
+          "BuildDeploymentScriptOnPush": false
+        },
+        "ProjectArchitecture": 1,
+        "LocalDirectory": "C:\\temp\\MainSourceControlProjects\\sharedProject1"
+      },
+      "UserData": [
+        {
+          "UserName": "KyryloZ-DBM",
+          "DatabasesData": []
         }
       ]
     }
