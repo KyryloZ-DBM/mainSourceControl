@@ -19,8 +19,25 @@
                   "Host": "localhost",
                   "AuthenticationType": 1,
                   "Username": "sa",
-                  "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                  "Password": "1q2w3e4R",
                   "DatabaseName": "test1"
+                },
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7666, Culture=neutral, PublicKeyToken=null",
+                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/secondRepo.git",
+                  "BranchName": "main"
+                }
+              },
+              {
+                "DatabaseId": "f0120ebc-d629-455c-a554-28b2e302d524",
+                "DatabaseAliasName": "SharedProjectAlias2",
+                "DatabaseConnectionDetails": {
+                  "DBTypeName": "SQL Server",
+                  "Host": "localhost",
+                  "AuthenticationType": 1,
+                  "Username": "sa",
+                  "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                  "DatabaseName": "test0"
                 },
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7666, Culture=neutral, PublicKeyToken=null",
@@ -49,6 +66,15 @@
             {
               "DatabaseId": "7611214f-2564-4e5a-b4bf-fe5ad48aa41b",
               "DatabaseAliasName": "sharedProject2Alias",
+              "DatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "KyryloZ-DBM",
+                "Password": "XxLwREL7982JVSwy0IIMgNOe7nFWSAgEgHBb+i/n2+F8G5K3t0ZI4PNj5OIhJ/gh"
+              }
+            },
+            {
+              "DatabaseId": "f0120ebc-d629-455c-a554-28b2e302d524",
+              "DatabaseAliasName": "SharedProjectAlias2",
               "DatabaseConnectionDetails": null,
               "RepositoryCredentials": {
                 "UserName": "KyryloZ-DBM",
