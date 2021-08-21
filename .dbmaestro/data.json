@@ -36,7 +36,7 @@
                   "Host": "localhost",
                   "AuthenticationType": 1,
                   "Username": "sa",
-                  "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                  "Password": "1q2w3e4R",
                   "DatabaseName": "test0"
                 },
                 "RepositoryDetails": {
@@ -82,6 +82,30 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "6cde4f5b-7ce3-4a04-8eb8-dfee3b496c28",
+        "ProjectName": "sandboxProject2",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 50,
+          "NumberOfTagsInBuildOptions": 50,
+          "BuildDeploymentScriptOnPush": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\temp\\MainSourceControlProjects\\sandboxProject2"
+      },
+      "UserData": [
+        {
+          "UserName": "KyryloZ-DBM",
+          "DatabasesData": []
         }
       ]
     }
