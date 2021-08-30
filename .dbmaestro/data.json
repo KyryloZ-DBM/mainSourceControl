@@ -644,6 +644,27 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "KyryloZhdanov",
+          "DatabasesData": [
+            {
+              "DatabaseId": "c7559fe5-8b90-446d-a147-8dd676423db4",
+              "DatabaseAliasName": "pa5",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "localhost",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "DatabaseName": "pa5db1"
+              },
+              "RepositoryCredentials": {
+                "UserName": "KyryloZhdanov",
+                "Password": "oN8YvW2nBc88vClEDJid6DzhdfkHXqVCdVVUMUXmaRAFyFVX7MHXLCdxiLhRRjYo"
+              }
+            }
+          ]
         }
       ]
     }
