@@ -56,6 +56,27 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "KyryloZhdanov",
+          "DatabasesData": [
+            {
+              "DatabaseId": "c8178c57-7da9-4f8b-8338-ea0f960da6cd",
+              "DatabaseAliasName": "proj1Alias",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "localhost",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "DatabaseName": "proj1db1"
+              },
+              "RepositoryCredentials": {
+                "UserName": "KyryloZhdanov",
+                "Password": "XEg+b/SKVfZ9O8OLmiJywXkRSjyQMPdQ0VoDpuQ1FoY="
+              }
+            }
+          ]
         }
       ]
     }
