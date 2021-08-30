@@ -223,6 +223,27 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "KyryloZ-DBM",
+          "DatabasesData": [
+            {
+              "DatabaseId": "bc4d3aad-99a6-4657-ba98-e715b9b817a2",
+              "DatabaseAliasName": "alias1",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "localhost",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "DatabaseName": "alias1_1"
+              },
+              "RepositoryCredentials": {
+                "UserName": "KyryloZ-DBM",
+                "Password": "XxLwREL7982JVSwy0IIMgNOe7nFWSAgEgHBb+i/n2+F8G5K3t0ZI4PNj5OIhJ/gh"
+              }
+            }
+          ]
         }
       ]
     }
