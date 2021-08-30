@@ -181,7 +181,14 @@
               {
                 "DatabaseId": "bc4d3aad-99a6-4657-ba98-e715b9b817a2",
                 "DatabaseAliasName": "alias1",
-                "DatabaseConnectionDetails": null,
+                "DatabaseConnectionDetails": {
+                  "DBTypeName": "SQL Server",
+                  "Host": "localhost",
+                  "AuthenticationType": 1,
+                  "Username": "sa",
+                  "Password": "1q2w3e4R",
+                  "DatabaseName": "alias1"
+                },
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/secondRepo.git",
@@ -214,7 +221,7 @@
                 "Host": "localhost",
                 "AuthenticationType": 1,
                 "Username": "sa",
-                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "Password": "1q2w3e4R",
                 "DatabaseName": "alias1"
               },
               "RepositoryCredentials": {
@@ -300,6 +307,86 @@
               "RepositoryCredentials": {
                 "UserName": "KyryloZ-DBM",
                 "Password": "XxLwREL7982JVSwy0IIMgNOe7nFWSAgEgHBb+i/n2+F8G5K3t0ZI4PNj5OIhJ/gh"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "KyryloZhdanov",
+          "DatabasesData": [
+            {
+              "DatabaseId": "a0fce222-48fd-48b7-b204-44cb49db5544",
+              "DatabaseAliasName": "ap1",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "localhost",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "DatabaseName": "ap1db1"
+              },
+              "RepositoryCredentials": {
+                "UserName": "KyryloZhdanov",
+                "Password": "oN8YvW2nBc88vClEDJid6DzhdfkHXqVCdVVUMUXmaRAFyFVX7MHXLCdxiLhRRjYo"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "a13ecb33-1350-4393-bb4b-2443a2e7d9af",
+        "ProjectName": "p2",
+        "DBTypeName": "SQL Server",
+        "Environments": [
+          {
+            "EnvironmentId": "8fb6fa60-de2d-4c46-adeb-b8ae552f666b",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "3baa8d38-07e8-4b9b-82ed-7db7d445b5cc",
+                "DatabaseAliasName": "pa2",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/secondRepo.git",
+                  "BranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "Documents\\p2"
+      },
+      "UserData": [
+        {
+          "UserName": "KyryloZhdanov",
+          "DatabasesData": [
+            {
+              "DatabaseId": "3baa8d38-07e8-4b9b-82ed-7db7d445b5cc",
+              "DatabaseAliasName": "pa2",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "localhost",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "DatabaseName": "pa2db1"
+              },
+              "RepositoryCredentials": {
+                "UserName": "KyryloZhdanov",
+                "Password": "oN8YvW2nBc88vClEDJid6DzhdfkHXqVCdVVUMUXmaRAFyFVX7MHXLCdxiLhRRjYo"
               }
             }
           ]
