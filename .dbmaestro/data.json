@@ -477,6 +477,27 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "KyryloZhdanov",
+          "DatabasesData": [
+            {
+              "DatabaseId": "2eee1217-84e1-4144-9fcb-14b276ba5913",
+              "DatabaseAliasName": "pa3",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "localhost",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "DatabaseName": "pa3db1"
+              },
+              "RepositoryCredentials": {
+                "UserName": "KyryloZhdanov",
+                "Password": "oN8YvW2nBc88vClEDJid6DzhdfkHXqVCdVVUMUXmaRAFyFVX7MHXLCdxiLhRRjYo"
+              }
+            }
+          ]
         }
       ]
     }
