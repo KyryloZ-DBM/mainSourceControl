@@ -143,6 +143,27 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "KyryloZ-DBM",
+          "DatabasesData": [
+            {
+              "DatabaseId": "468f68e1-adac-4218-a70d-4b488c813afa",
+              "DatabaseAliasName": "projalias",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "localhost",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "DatabaseName": "test1"
+              },
+              "RepositoryCredentials": {
+                "UserName": "KyryloZhdanov",
+                "Password": "XEg+b/SKVfZ9O8OLmiJywXkRSjyQMPdQ0VoDpuQ1FoY="
+              }
+            }
+          ]
         }
       ]
     }
