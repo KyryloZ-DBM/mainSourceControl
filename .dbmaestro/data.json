@@ -587,6 +587,30 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "62e08c7d-0e95-4ceb-9779-b77912606dc6",
+        "ProjectName": "p5",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "Documents\\p5"
+      },
+      "UserData": [
+        {
+          "UserName": "KyryloZ-DBM",
+          "DatabasesData": []
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null
