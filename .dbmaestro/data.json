@@ -197,37 +197,6 @@
           "DatabasesData": []
         }
       ]
-    },
-    {
-      "GlobalData": {
-        "ProjectId": "44bd2519-1ff7-4148-8123-aff830a8a714",
-        "ProjectName": "scriptTestProj",
-        "DBTypeName": "SQL Server",
-        "Environments": [
-          {
-            "EnvironmentId": "001d6ab8-91f7-410b-95e9-41fc188f5fa5",
-            "EnvironmentName": "Dev_Env_1",
-            "EnvironmentType": "DEV",
-            "Databases": []
-          }
-        ],
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 1,
-          "NumberOfRevisionsInViewHistory": 10,
-          "NumberOfTagsInBuildOptions": 10,
-          "BuildDeploymentScriptOnPush": false
-        },
-        "ProjectArchitecture": 0,
-        "LocalDirectory": "Documents\\scriptTestProj"
-      },
-      "UserData": [
-        {
-          "UserName": "KyryloZ-DBM",
-          "DatabasesData": []
-        }
-      ]
     }
   ],
   "GlobalConfigurations": null
