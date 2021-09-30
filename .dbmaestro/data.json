@@ -37,7 +37,8 @@
           "BuildMethod": 1,
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
-          "BuildDeploymentScriptOnPush": false
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
         },
         "ProjectArchitecture": 0,
         "LocalDirectory": "C:\\temp\\MainSourceControlProjects\\projectName1234"
@@ -124,7 +125,8 @@
           "BuildMethod": 1,
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
-          "BuildDeploymentScriptOnPush": false
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
         },
         "ProjectArchitecture": 0,
         "LocalDirectory": "Documents\\firstP"
@@ -186,10 +188,36 @@
           "BuildMethod": 1,
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
-          "BuildDeploymentScriptOnPush": false
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
         },
         "ProjectArchitecture": 0,
         "LocalDirectory": "Documents\\p1"
+      },
+      "UserData": [
+        {
+          "UserName": "KyryloZ-DBM",
+          "DatabasesData": []
+        }
+      ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "67f6f935-4e1a-4a32-931f-683f0d22fe95",
+        "ProjectName": "sharedProj",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 1,
+        "LocalDirectory": "Documents\\sharedProj"
       },
       "UserData": [
         {
