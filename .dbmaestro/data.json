@@ -235,31 +235,6 @@
     },
     {
       "GlobalData": {
-        "ProjectId": "79538850-4196-4926-81ec-49f1bf9f02e2",
-        "ProjectName": "projectNameer",
-        "DBTypeName": "SQL Server",
-        "Environments": null,
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 1,
-          "NumberOfRevisionsInViewHistory": 10,
-          "NumberOfTagsInBuildOptions": 10,
-          "BuildDeploymentScriptOnPush": false,
-          "PreventCommitObjectWithConflict": false
-        },
-        "ProjectArchitecture": 0,
-        "LocalDirectory": "Documents\\projectNameer"
-      },
-      "UserData": [
-        {
-          "UserName": "KyryloZ-DBM",
-          "DatabasesData": []
-        }
-      ]
-    },
-    {
-      "GlobalData": {
         "ProjectId": "ffd4a099-2119-415b-8133-b72192200498",
         "ProjectName": "projectNameoi",
         "DBTypeName": "SQL Server",
