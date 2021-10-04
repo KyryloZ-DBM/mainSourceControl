@@ -343,7 +343,18 @@
             "EnvironmentId": "bb13501f-59f9-4215-bec9-7db819156813",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
-            "Databases": []
+            "Databases": [
+              {
+                "DatabaseId": "d5375323-7be1-4988-8a96-fcfb8d39659b",
+                "DatabaseAliasName": "testDeleteProj",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/SC_testRepo.git",
+                  "BranchName": "main"
+                }
+              }
+            ]
           }
         ],
         "SourceControlPathType": 0,
@@ -361,7 +372,24 @@
       "UserData": [
         {
           "UserName": "KyryloZ-DBM",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "d5375323-7be1-4988-8a96-fcfb8d39659b",
+              "DatabaseAliasName": "testDeleteProj",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "localhost",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "DatabaseName": "test4"
+              },
+              "RepositoryCredentials": {
+                "UserName": "KyryloZ-DBM",
+                "Password": "n/INtPIrzWNG+Qa0o4P+Lr9hE2pJt/3mEBcXpeQkW8fSBgp8/3eAfULILb25H8TT"
+              }
+            }
+          ]
         }
       ]
     }
