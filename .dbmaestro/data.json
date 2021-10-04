@@ -260,6 +260,31 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "34551f6b-29fc-42d6-981c-776ae123d66b",
+        "ProjectName": "SharedProj0",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\temp\\MainSourceControlProjects\\SharedProj0"
+      },
+      "UserData": [
+        {
+          "UserName": "KyryloZ-DBM",
+          "DatabasesData": []
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null
